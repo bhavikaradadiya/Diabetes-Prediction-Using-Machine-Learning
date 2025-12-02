@@ -13,7 +13,7 @@ Compare performance metrics,
 
 Identify the best-performing algorithm
 
-📌 Dataset
+## 📌 Dataset
 
 The dataset contains 768 records with 8 input features and 1 target variable:
 
@@ -35,11 +35,11 @@ Age
 
 Outcome (0 = No diabetes, 1 = Diabetes)
 
-Dataset Source:
+## Dataset Source:
 Publicly available Pima Indians Diabetes Dataset (Kaggle/UCI).
 
-📊 Project Workflow
-1. Exploratory Data Analysis (EDA)
+## 📊 Project Workflow
+### 1. Exploratory Data Analysis (EDA)
 
 Histograms for all numerical features
 
@@ -47,13 +47,13 @@ Correlation heatmap
 
 Zero-value detection in medical fields (treated as missing values)
 
-2. Data Cleaning
+### 2. Data Cleaning
 
 Replace invalid zero values using mean/median imputation
 
 Standardize features using StandardScaler
 
-3. Machine Learning Models
+### 3. Machine Learning Models
 
 The following classification models were implemented:
 
@@ -67,9 +67,9 @@ Support Vector Machine (SVM)
 
 K-Nearest Neighbors (KNN)
 
-4. Model Evaluation
+### 4. Model Evaluation
 
-Metrics used:
+### Metrics used:
 
 Accuracy
 
@@ -81,16 +81,20 @@ F1-Score
 
 Confusion Matrix
 
-5. Model Comparison
+### 5. Model Comparison
 
 After evaluating all models, SVM produced the highest accuracy in this project.
 
-## 📈 Results Summary
+### 📈 Results Summary
 Model	Accuracy
 Logistic Regression	~0.74
+
 Random Forest	~0.74
+
 Decision Tree	~0.75
+
 SVM	~0.76 (Best)
+
 KNN	~0.66
 
-SVM demonstrated strong performance and balanced metrics, making it the preferred model for this dataset.
+ SVM demonstrated strong performance and balanced metrics, making it the preferred model for this dataset.
