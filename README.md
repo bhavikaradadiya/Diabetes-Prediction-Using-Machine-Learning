@@ -1,0 +1,2 @@
+# Diabetes Prediction Using Machine Learning
+This project applies machine learning techniques to predict whether an individual is likely to have diabetes based on several medical attributes such as glucose level, BMI, insulin level, and others.  The goal of the project is to:  Explore the dataset and understand feature patterns, Preprocess and clean the data,  Train multiple classification models , Compare performance metrics,  Identify the best-performing algorithm
